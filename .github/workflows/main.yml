@@ -1,7 +1,7 @@
 name: RDPP
 
 on:
-workflow_dispatch:
+الإعدادات الافتراضية:
 
 jobs:
   secure-rdpp:
