@@ -1,7 +1,5 @@
 name: RDPP
 
-on:12
-الإعدادات الافتراضية:
 
 jobs:
   secure-rdpp:
