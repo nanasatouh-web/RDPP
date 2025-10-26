@@ -1,7 +1,6 @@
 name: RDPP
 
 
-jobs:
     runs-on: windows-latest
     timeout-minutes: 3600
 
