@@ -21,7 +21,6 @@ jobs:
           # (Optional) Restart the Remote Desktop service to ensure changes take effect
           Restart-Service -Name TermService -Force
 
-        run: |
           Add-Type -AssemblyNameSystem.Security
           $charSet = @{
               Upper   = [char[]](65..90)      # A-Z
