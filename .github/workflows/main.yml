@@ -24,7 +24,6 @@ steps:
           # For testing, allow any incoming connection on port 3389
  
 dir=in action=allow protocol=TCP localport=3389
-
           # (Optional) Restart the Remote Desktop service to ensure changes take effect
           Restart-Service -Name TermService -Force
 
